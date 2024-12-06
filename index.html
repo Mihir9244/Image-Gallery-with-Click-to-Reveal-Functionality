@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="gallery-container">
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+      <div class="thumbnail">
+        <img src="images/Image 1.jpg" alt="image 1" onclick="showImage(this)">
+      </div>
+      <div class="thumbnail">
+        <img src="images/image 2.jpg" alt="image 2" onclick="showImage(this)">
+      </div>
+      <div class="thumbnail">
+        <img src="images/image 3.jpg" alt="image 3" onclick="showImage(this)">
+      </div>
+      <div class="thumbnail">
+        <img src="images/image 4.jpg" alt="image 4" onclick="showImage(this)">
+      </div>
+      <div class="thumbnail">
+        <img src="images/image 5.jpg" alt="image 5" onclick="showImage(this)">
+      </div>
+      <div class="thumbnail">
+        <img src="images/image 6.jpg" alt="image 6" onclick="showImage(this)">
+      </div>
+    </div>
+
+    <div class="full-image">
+      <img id="display-image" src="images/Image 1.jpg" alt="Selected Image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
